@@ -1,0 +1,6 @@
+vagrant up
+vagrant destroy
+vagrant reload --provision
+
+
+ansible -m ping all
