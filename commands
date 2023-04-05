@@ -1,6 +1,10 @@
+https://galaxy.ansible.com/geerlingguy/mysql
+
 vagrant up
 vagrant destroy
 vagrant reload --provision
 
 
 ansible -m ping all
+ansible-playbook db.yml
+ansible-playbook db.yml --check
